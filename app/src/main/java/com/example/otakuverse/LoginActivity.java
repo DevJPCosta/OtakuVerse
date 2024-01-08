@@ -13,6 +13,8 @@ import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.AuthResult;
 
+import java.util.Objects;
+
 public class LoginActivity extends AppCompatActivity {
 
     @Override
@@ -25,8 +27,8 @@ public class LoginActivity extends AppCompatActivity {
         TextInputEditText passwordEditText = findViewById(R.id.password_edit_text);
 
         // Valida as informações de login
-        String username = usernameEditText.getText().toString();
-        String password = passwordEditText.getText().toString();
+        String username = Objects.requireNonNull(usernameEditText.getText()).toString();
+        String password = Objects.requireNonNull(passwordEditText.getText()).toString();
 
         if (username.isEmpty() || password.isEmpty()) {
             // Exibe uma mensagem de erro

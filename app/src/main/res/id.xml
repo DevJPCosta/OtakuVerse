@@ -1,0 +1,4 @@
+<resources>
+     <id name="password_edit_text">password_edit_text</id>
+    <id name="username_edit_text">username_edit_text</id>
+</resources>

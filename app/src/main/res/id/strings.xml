@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">OtakuVerse</string>
-    <string name="login">Login</string>
-    <string name="nome_de_usu_rio_ou_e_mail">Nome de usuário ou e-mail</string>
-    <string name="senha">Senha</string>
-    <string name="password_edit_text">password_edit_text</string>
-    <string name="username_edit_text">username_edit_text</string>
-</resources>
