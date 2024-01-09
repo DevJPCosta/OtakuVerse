@@ -2,6 +2,7 @@ package com.example.otakuverse;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -9,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.AuthResult;
 
@@ -23,8 +23,9 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         // Obtém os campos do formulário
-        TextInputEditText usernameEditText = findViewById(R.id.username_edit_text);
-        TextInputEditText passwordEditText = findViewById(R.id.password_edit_text);
+        EditText usernameEditText = findViewById(R.id.username_edit_text);
+        EditText passwordEditText = findViewById(R.id.password_edit_text);
+
 
         // Valida as informações de login
         String username = Objects.requireNonNull(usernameEditText.getText()).toString();
