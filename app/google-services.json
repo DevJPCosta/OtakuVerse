@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "742511963147",
+    "project_id": "otkvs-2f15e",
+    "storage_bucket": "otkvs-2f15e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742511963147:android:eedfe9ad5c3beab170eb0e",
+        "android_client_info": {
+          "package_name": "com.example.otakuverse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUxXGkz1mTMiKIyAmcwXbiZ5qL9H0L-oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

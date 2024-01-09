@@ -6,4 +6,10 @@
     <string name="password_edit_text">password_edit_text</string>
     <string name="username_edit_text">username_edit_text</string>
     <string name="textView">textView</string>
+    <string name="register_button">register_button</string>
+    <string name="criar_conta">criar_conta</string>
+    <string name="login_button">login_button</string>
+    <string name="confirmar_senha">confirmar_senha</string>
+    <string name="voltar_a_pagina_de_login">voltar_a_pagina_de_login</string>
+    <string name="confirm_password_edit_text">confirm_password_edit_text</string>
 </resources>

@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="@string/criar_conta"
         android:textSize="24sp"
         android:textColor="@color/text_color"
         android:textAlignment="center"
@@ -18,36 +18,56 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView"
-        android:orientation="vertical"
         android:layout_marginTop="40dp"
-        android:background="@drawable/rounded_corners_white">
+        android:background="@drawable/rounded_corners_white"
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/username_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/nome_de_usu_rio_ou_e_mail"
-            android:textColorHint="@color/hint_text_color"
-            android:textColor="@color/text_color"
-            android:minHeight="48dp"
             android:layout_margin="10dp"
-            android:importantForAutofill="no"
             android:background="@android:color/transparent"
-            />
+            android:hint="@string/nome_de_usu_rio_ou_e_mail"
+            android:importantForAutofill="no"
+            android:minHeight="48dp"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/hint_text_color" />
 
         <EditText
             android:id="@+id/password_edit_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/senha"
-            android:textColorHint="@color/hint_text_color"
-            android:textColor="@color/text_color"
-            android:inputType="textPassword"
-            android:minHeight="48dp"
             android:layout_margin="10dp"
             android:autofillHints=""
             android:background="@android:color/transparent"
-            />
+            android:hint="@string/senha"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/hint_text_color" />
+
+        <EditText
+            android:id="@+id/confirm_password_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:autofillHints=""
+            android:background="@android:color/transparent"
+            android:hint="@string/confirmar_senha"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/text_color"
+            android:textColorHint="@color/hint_text_color" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="102dp"
+            android:background="@color/button_color"
+            android:text="@string/criar_conta"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 
@@ -55,21 +75,10 @@
         android:id="@+id/login_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="20dp"
-        android:text="@string/login"
+        android:layout_below="@id/register_button"
+        android:layout_marginTop="477dp"
         android:background="@color/button_color"
-        android:textColor="@android:color/white" />
-
-    <Button
-        android:id="@+id/register_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/criar_conta"
-        android:layout_marginTop="40dp"
-        android:layout_below="@id/login_button"
-        android:background="@color/button_color"
+        android:text="@string/voltar_a_pagina_de_login"
         android:textColor="@android:color/white" />
 
 </RelativeLayout>
